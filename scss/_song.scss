@@ -1,0 +1,75 @@
+
+li {
+    border-bottom:  1px solid bisque;
+    padding: 20px 10px 0px 10px;
+    display: flex;
+}
+
+.firstPart{
+    display: flex;
+    flex-direction: column;
+}
+.num {
+    color: darkgrey;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.type{
+    font-size: .9rem;
+}
+.sectionOne {
+    display: flex;
+    flex-direction: column;
+}
+.book-img{
+    margin: 0 20px;
+}
+.secondPart {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.sectionTwo {
+    font-size: 10px;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    
+}
+.title,.author {
+    align-self: center;
+    font-size: 2rem;
+
+}
+
+
+.thirdPart {
+   position: absolute;
+   left: 90%;
+
+}
+.pub {
+    font-size: 14px;
+    color: darkgrey;
+    line-height: 0px;
+    top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#dac292;
+}
+
+
+//styling for the detailed bookpage
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture {
+    margin: 20px 0;
+}

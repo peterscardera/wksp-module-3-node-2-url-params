@@ -1,0 +1,26 @@
+<%- include("../partials/header") %>
+
+
+<ul> 
+    <% popSongs.forEach(item => { %> 
+    <li>
+  <div class="firstPart">    
+ <span class="num">#<%= item.rank %></span>  
+ <span class="stream">(<%= item.streams %>) </span>
+ </div>
+ <div class="secondPart">
+<span class="title"><%= item.title %>  </span>
+ <span class="artits"><%= item.artist %> </span>
+</div>
+<div class="thirdPart"> 
+  <span class="pub"> publication date: <%= item.publicationDate %> </span>
+</div>
+    </li> 
+    <% }); %>
+    </ul>
+    
+<%-include("../partials/footer") %>
+
+
+
+

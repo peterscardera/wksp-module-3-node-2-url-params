@@ -1,0 +1,21 @@
+
+<ul> 
+    <% top50.forEach(item => { %> 
+      <a href="top50/<%= item.rank %> ">
+    <li>
+  <div class="firstPart">    
+ <span class="num">#<%= item.rank %></span>  
+ <span class="stream">(<%= item.streams %>) </span>
+ </div>
+ <div class="secondPartBook">
+<span class="title"><%= item.title %>  </span>
+ <span class="artist"><%= item.artist %> </span>
+</div>
+<div class="thirdPart"> 
+  <span class="pub"> publication date: <%= item.publicationDate %> </span>
+</div>
+    </li> 
+    </a>
+    <% }); %>
+    </ul>
+    

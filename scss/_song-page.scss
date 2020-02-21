@@ -1,0 +1,9 @@
+a:visited {
+    color: #e6e2d3
+}
+
+li:hover {
+    box-shadow: 0px 0px 20px lightslategray;
+    z-index: 2;
+    transition: all 200ms ease-in
+}

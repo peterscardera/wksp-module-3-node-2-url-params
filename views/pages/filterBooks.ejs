@@ -1,0 +1,31 @@
+<%- include("../partials/header") %>
+
+
+
+<ul> 
+    <% filterByType.forEach(item => { %> 
+      
+    <li >
+  <div class="sectionOne">    
+ <span class="num">#<%= item.id %></span>  
+ <span class="type">(<%= item.type %>) </span>
+ </div>
+ 
+  <div class="book-img">
+    <img src="<%= item.imgUrl %> ">
+  </div> 
+  <div class="sectionTwo">
+     <span class="title"><%= item.title %>  </span>
+     <span class="author"><%= item.author %> </span>
+ 
+</div> 
+</div>
+    </li> 
+    
+    <% }); %>
+    </ul>
+    
+
+
+<%-include("../partials/footer") %>
+
